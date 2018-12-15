@@ -1,0 +1,6 @@
+apiLink: 'https://api.github.com/repos/TreeboMC/PrisonTweaks/releases/latest'
+releasePage: 'https://github.com/TreeboMC/PrisonTweaks/releases/latest'
+checkUpdates: 'true'
+version:
+
+tntThrowMultiplier: 2.0

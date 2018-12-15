@@ -1,0 +1,24 @@
+name: PrisonTweaks
+version: ${project.version}
+main: me.shakeforprotein.prisontweaks.PrisonTweaks
+authors: [ShakeforProtein]
+website: http://play.treebomc.com
+
+commands:
+  prisontweaks:
+    description: ''
+    usage: '<Command>'
+
+permissions:
+  prisontweaks.updatechecker:
+    default: op
+    description: ''
+  prisontweaks.clearviptimer:
+    default: op
+    description: ''
+  prisontweaks.reload:
+    default: op
+    description: ''
+  prisontweaks.setthrow:
+    default: op
+    description: ''

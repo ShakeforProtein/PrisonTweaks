@@ -1,6 +1,7 @@
 # PrisonTweaks
+Custom Tweaks for the Prison gamemode
 
-##commands
+## Commands
 ```
 prisontweaks - Displays all prisontweaks commands
     
@@ -11,7 +12,7 @@ prisontweaks - Displays all prisontweaks commands
 /prisontweaks setTntThrow <multiplier> - Sets how far players can throw tnt. Is multiplied by default item throw velocity
 ```         
 
-##Permissions
+## Permissions
 ```
 permissions:
   prisontweaks.updatechecker - Notify player on join if there is an update to the plugin

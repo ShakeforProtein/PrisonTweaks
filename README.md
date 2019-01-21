@@ -13,10 +13,12 @@ prisontweaks - Displays all prisontweaks commands
 
 ##Permissions
 ```
-prisontweaks.updatechecker
-prisontweaks.clearviptimer
-prisontweaks.reload
-prisontweaks.setthrow
+permissions:
+  prisontweaks.updatechecker - Notify player on join if there is an update to the plugin
+  prisontweaks.clearviptimer - Enables use of /prisontweaks clear
+  prisontweaks.reload: - Enables use of /prisontweaks save and reload
+  prisontweaks.setthrow - Enables use of /prisontweaks setTntThrow
+  pvip.perm - Enables use of /prisontweaks givenewpick
 
-All permissions default to OP
+All permissions except pvip.perm default to OP
 ```

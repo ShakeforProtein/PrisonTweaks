@@ -23,7 +23,7 @@ permissions:
   prisontweaks.setthrow:
     default: op
     description: 'Enables use of /prisontweaks setTntThrow'
-  pvip.perm
+  pvip.perm:
     default: false
     description: 'Enables use of /prisontweaks givenewpick'
     

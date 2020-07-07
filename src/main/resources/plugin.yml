@@ -13,13 +13,17 @@ commands:
 permissions:
   prisontweaks.updatechecker:
     default: op
-    description: ''
+    description: 'Notify player on join if there is an update to the plugin'
   prisontweaks.clearviptimer:
     default: op
-    description: ''
+    description: 'Enables use of /prisontweaks clear'
   prisontweaks.reload:
     default: op
-    description: ''
+    description: 'Enables use of /prisontweaks save and reload'
   prisontweaks.setthrow:
     default: op
-    description: ''
+    description: 'Enables use of /prisontweaks setTntThrow'
+  pvip.perm
+    default: false
+    description: 'Enables use of /prisontweaks givenewpick'
+    

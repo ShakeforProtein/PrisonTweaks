@@ -1,10 +1,10 @@
 package me.shakeforprotein.prisontweaks;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -41,8 +41,8 @@ public class UpdateChecker {
 
                 while (inputLine != null) {
 
-                    JSONParser parser = new JSONParser();
-                    JSONObject json = (JSONObject) parser.parse(inputLine);
+                    JsonParser parser = new JsonParser();
+                    JsonObject json = (JsonObject) parser.parse(inputLine);
                     gitVersion = json.get("tag_name").toString();
                     if (!gitVersion.equalsIgnoreCase(pl.getDescription().getVersion())) {
                         p.sendMessage("Latest " + pl.getDescription().getName() + " Version is " + gitVersion);
@@ -92,8 +92,8 @@ public class UpdateChecker {
 
                 while (inputLine != null) {
 
-                    JSONParser parser = new JSONParser();
-                    JSONObject json = (JSONObject) parser.parse(inputLine);
+                    JsonParser parser = new JsonParser();
+                    JsonObject json = (JsonObject) parser.parse(inputLine);
                     gitVersion = json.get("tag_name").toString();
 
 

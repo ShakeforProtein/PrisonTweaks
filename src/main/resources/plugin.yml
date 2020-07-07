@@ -3,6 +3,7 @@ version: ${project.version}
 main: me.shakeforprotein.prisontweaks.PrisonTweaks
 authors: [ShakeforProtein]
 website: http://play.treebomc.com
+api-version: 1.13
 
 commands:
   prisontweaks:
